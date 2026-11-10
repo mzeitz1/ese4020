@@ -1,0 +1,67 @@
+{
+  "raw_tourney_games": 2585,
+  "dropped_first_four": 66,
+  "dropped_missing": 0,
+  "games_kept": 2519,
+  "seasons_all": [
+    1985,
+    2025
+  ],
+  "n_seasons": 40,
+  "test_seasons_untouched": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "test_games_untouched": 314,
+  "train_games": 2205,
+  "train_seasons": 35,
+  "equal_seed_games_in_train": 26,
+  "share_team_A_wins": 0.4926558157999206,
+  "C_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "C_final_on_all_train": 1,
+  "C_chosen_per_outer_fold": {
+    "1": 35
+  },
+  "loso_logloss_by_C": {
+    "0.001": 0.6193747935511414,
+    "0.01": 0.5580923453756912,
+    "0.1": 0.5516666442795408,
+    "1": 0.5515729051996223,
+    "10": 0.5515750417341277,
+    "100": 0.5515753819450999
+  },
+  "model_acc": 0.7151927437641723,
+  "model_acc_se_seasons": 0.007861264156345166,
+  "model_acc_boot_ci": [
+    0.6965986394557823,
+    0.7342403628117914
+  ],
+  "model_logloss": 0.5515729051996221,
+  "model_logloss_se_seasons": 0.0068178058277317535,
+  "model_logloss_boot_ci": [
+    0.5326694084701566,
+    0.5704052781433164
+  ],
+  "seed_acc": 0.7142857142857143,
+  "seed_acc_se_seasons": 0.007637421710959445,
+  "seed_acc_boot_ci": [
+    0.6959126984126984,
+    0.7335600907029478
+  ],
+  "gap_acc_model_minus_seed": 0.0009070294784579991,
+  "gap_boot_ci": [
+    -0.0013605442176870541,
+    0.0031746031746031633
+  ],
+  "coin_flip_logloss": 0.6931471805599453
+}

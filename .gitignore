@@ -1,0 +1,5 @@
+# Kaggle competition data is not redistributed here; download it yourself (see README)
+data/*.csv
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
